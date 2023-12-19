@@ -1,0 +1,508 @@
+/* Google fonts */ 
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital@1&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Navbar CSS */ 
+   nav{
+    height:90px;
+    background-color: rgb(26, 24, 122); 
+    justify-content: space-evenly;
+    padding: 20px;
+    
+   } 
+   .gaps{
+     gap: 10px;
+   }
+   .logo{  
+    height: 50px; 
+    width: 50px;
+}  
+.title{
+    color: white;
+   
+}  
+
+
+.list-items{ 
+    display: flex;
+    justify-content: space-evenly;
+    gap: 80px;
+    margin-top: 16px;
+
+}
+li{
+    list-style: none; 
+    color:white; 
+} 
+.icons{
+    display: flex; 
+    gap: 20px;
+    color: white;
+    margin-top: 20px;
+    
+} 
+.right-section{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 30px;
+} 
+
+/* Banner CSS */ 
+
+.Carousel-items {
+    background: linear-gradient(45deg, rgb(246, 209, 246), rgb(129, 110, 251)); 
+    height: 550px;
+    width: auto;
+} 
+.text-writing { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px; 
+    padding-top: 150px;
+    
+} 
+.carousel-image{
+    height: 600px;
+    width: auto;
+} 
+
+.text{
+    margin-bottom: 400px;
+}
+.shop-btn {
+     
+    border: 1px solid whitesmoke; 
+    margin-top: 10px;
+    border-radius: 5px;
+    height: 40px;
+    width: 150px; 
+    background-color: rgb(26, 24, 122);
+    color: white;
+}
+
+/*------------------------ Big banner CSS --------------------*/ 
+ 
+.big-banner{
+    background-color: aliceblue;
+} 
+.ipad-image{
+    height: 250px; 
+    width: 300px; 
+    margin: 20px;
+} 
+.ipad-text{
+    margin-top: 40px;
+    
+} 
+.Apple-airpods{
+    background-color: rgb(173, 194, 215); 
+    height: 250px;
+    width: 632px; 
+    font-size: small; 
+
+}  
+.airpod-title{
+    padding-left: 200px;
+    padding-top: 40px;
+   
+   
+}
+span{
+    font-size: 22px; 
+    color: black;
+}
+#apple-text{
+    color: white;
+    width:300px;
+    text-align: justify;
+    
+}
+
+.MacbookAir-section{
+    background-color: #EDEDED; 
+    justify-content: center;
+    align-items: center;
+    /* flex-wrap: wrap; */
+    
+    
+}  
+.mac-text{
+    padding: 30px;
+}
+.macbook-imag{
+    height: 300px; 
+    width: 300px;
+} 
+
+/*--------------------------- Main CSS--------------------------- */  
+
+.browseBycategory{
+    justify-content: space-around;
+}
+#sign{
+    font-size: larger;
+    font-weight: bold;
+}  
+.boxes{
+    justify-content: center;
+    gap:15px;
+    flex-wrap: wrap;
+}
+.box{
+    height: 100px;
+    width: 100px; 
+    border: 1px solid white; 
+    border-radius: 5px; 
+    box-shadow: 4px 4px 8px whitesmoke;
+    background: rgb(237, 237, 237);
+    
+} 
+.phone{
+    
+    font-size: 40px;
+    padding: 25px;  
+    color: rgba(38, 30, 2, 0.888); 
+    position: absolute;
+} 
+.icon-text{
+    position: relative;
+    top: 69px;
+    right: -20px; 
+    font-size: small;
+}
+.clock-text{
+    position: relative;
+    top: 69px;
+    right: -25px; 
+    font-size: small;
+} 
+.browseBycategory{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 700;
+    margin-top: 20px;
+} 
+
+/* -----------------------CARD DESING-------------------- */ 
+.card-heading{
+    gap:20px;
+    margin:20px;
+    margin-left: 257px;
+}
+.card-heading li{ 
+    
+    color: rgba(126, 112, 112, 0.881);
+    
+} 
+.cards-boxes{
+    gap:20px;
+    padding-left: 260px;
+    flex-wrap: wrap;
+}
+
+.card-box{
+    height: 320px; 
+    width: 200px;
+    background-color: #EDEDED;
+    text-align: center;
+    border: 1px solid rgb(243, 235, 235);
+    border-radius: 5px;
+    box-shadow: 4px 4px 5px #EDEDED;
+}
+.cardImg{
+    height: 100px;
+    width: 100px;
+} 
+.heart-icon{
+   padding-left: 100px;
+   color: red;
+} 
+.buy-btn{
+    border: 1px solid whitesmoke; 
+    margin-top: 10px;
+    border-radius: 5px;
+    height: 40px;
+    width: 150px; 
+    background-color: rgb(0, 0, 0);
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+} 
+
+/* ---------------------------SALES PRODUCTS----------------- */ 
+.sales-products{
+    background-color: rgb(149, 138, 212);
+    margin-top: 40px; 
+    padding: 40px;
+    gap: 45px;
+} 
+.productImg1{
+    height: 300px; 
+    width: 300px;
+} 
+.product-text{
+    /* border: 1px solid rebeccapurple; */
+    text-align: justify;
+    padding-top: 50px;
+    box-shadow: 4px 4px 8px rebeccapurple;
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+    border-radius: 5px;
+}
+.product-heading{
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+    font-weight: 700;
+    color: white;
+    text-align: center;
+}
+#p-headIng{
+    font-weight: 700;
+    color: black;
+    font-size: 40px;
+}
+.productImg2{
+    height: 300px; 
+    width: 300px;
+}
+
+
+/*---------------------------- FOOTER --------------------- */ 
+.footer-container{
+    background-color: rgb(14, 7, 27);
+    flex-wrap: wrap;
+   
+}
+.section1{
+    margin: 90px;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+.footerImg{
+    height: 50px;
+    width: 50px;
+}
+.footer-icon{
+    color: white;
+    gap: 30px;
+    
+} 
+.services{
+    color: rgb(151, 152, 153);
+
+}
+.services-title{
+    color: #EDEDED;
+    font-family: sans-serif;
+    font-weight: 500;
+} 
+
+.buyer{
+    margin-left: 30px;
+    margin-top: 100px;
+}
+ 
+/*-------------------- ------------------------------------------------------------------------------------------------------------------------------MEDIA QUERY for Mobile -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */ 
+@media only screen and (max-width:498px) {  
+    /* ------Navbar Design for L-MOBILE ---------*/
+    nav{
+        height:80px;
+        background-color: rgb(26, 24, 122); 
+        /* padding-left: 100px; */
+       } 
+       .gaps{ 
+         display: flex;
+         gap:4px;
+       }
+       .logo{  
+        height: 30px; 
+        width: 30px; 
+        margin-top: 10px;
+    }  
+    #title1{
+        color: white; 
+        font-size: small;
+        line-height: 50px;
+    }  
+    
+    #list-item{ 
+        display: flex; 
+        color: rgb(38, 38, 124);
+        gap:5px;
+        font-size:12px; 
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    li{
+        list-style: none; 
+        color:rgb(241, 238, 238); 
+    } 
+    .icons{
+        display: flex; 
+        gap: 10px;
+        color: white;
+        margin-top: 20px;
+    } 
+   
+  /* ---------------- CAROUSEL DESIGN for L-MOBILE ---------------  */ 
+  
+  .Carousel-items {
+    background: linear-gradient(45deg, rgb(246, 209, 246), rgb(129, 110, 251));
+    height: 400px;
+    width: auto;
+} 
+.carousel-image{
+    height: 300px;
+    width: auto;
+    position: relative; 
+    left: -80px;
+    bottom: -60px;
+} 
+.text-writing {
+    position: absolute;
+    display: flex;
+    gap: 5px;
+    justify-content: center; 
+    align-items: center;
+    padding: 70px; 
+    padding-top: 20px;
+    /* padding-left: -140px; */
+    left: 30px;
+    
+} 
+.text{
+    text-align: center;
+    /* margin-left: 30px; */
+    
+}
+.shop-btn {
+     
+    border: 1px solid whitesmoke; 
+    margin-top: 10px;
+    border-radius: 5px;
+    height: 40px;
+    width: 150px; 
+    background-color: rgb(26, 24, 122);
+    color: white;
+}
+     /*------------- BIG BANNER for L-MOBILE ------------ */ 
+     .big-banner{
+        background-color: aliceblue;
+        flex-direction: column;
+    } 
+    .ipad-section{
+        padding: 20px;
+    }
+    .ipad-image{
+        height: 200px; 
+        width: auto; 
+        margin: 0px;
+    } 
+    .ipad-text{
+        margin-top: 0px;
+        padding: 0;
+        text-align: justify;
+        font-size: small;
+        
+    } 
+    .Apple-airpods{
+        background-color: rgb(173, 194, 215); 
+        height: 200px;
+        width: 440px; 
+        font-size: small;
+    }  
+    .airpod-title{
+        padding: 0;
+        text-align: center;
+       
+    }
+    span{
+        font-size: 22px; 
+        color: black;
+        font-weight: 600;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    #apple-text{
+        color: rgb(248, 246, 246);
+        text-align: justify;
+        padding: 20px
+    }
+    
+    .MacbookAir-section{ 
+        background-color: rgb(237, 237, 237);
+        position: relative;
+        left:150px; 
+        margin: 30px;
+        height: auto;
+        width: auto;
+        
+    }  
+    .mac-text{
+        padding: 10px;
+        padding-left: 100px;
+
+    }
+    .macbook-imag{
+        height: 100px; 
+        width: 100px;
+        background-color: rgb(237, 237, 237);
+    }  
+
+    /* ------------SMALL BOXES-------------  */ 
+    .products{
+        margin-left: 70px;
+    } 
+    /* --------------CARD BOXES--------------  */
+    .card-resize{
+        position: relative;
+        left: -100px;
+    } 
+    /* ----------------PRODUCT SALES------------------  */ 
+    .sales-products{
+        background-color: rgb(149, 138, 212);
+        /* margin-top: 40px; 
+        padding: 40px;
+        gap: 45px; */
+        /* padding: 40px; */
+    } 
+    .productImg1{
+        height: 100px; 
+        width: 100px;
+        margin-top: 100px;
+    } 
+    .product-text{
+        /* border: 1px solid rebeccapurple; */
+        text-align: justify;
+        /* padding-top: 50px; */
+        box-shadow: 4px 4px 8px rebeccapurple;
+        font-family:Georgia, 'Times New Roman', Times, serif ;
+        border-radius: 5px;
+        /* margin: 10px; */
+        padding: 20px;
+    }
+    .product-heading{
+        font-family: Georgia, 'Times New Roman', Times, serif; 
+        font-weight: 600;
+        color: white;
+        text-align: center;
+    }
+    #p-headIng{
+        font-weight: 600;
+        color: black;
+        font-size: 30px;
+    }
+    .productImg2{
+        height: 100px; 
+        width: 100px;
+        margin-top: 100px;
+        padding-right: 30px;
+    } 
+
+    /* ------------------Footer ------------------- */ 
+    #buyers{
+        padding-left: 60px;
+        
+        
+    }
+
+
+}
